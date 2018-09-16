@@ -1,0 +1,22 @@
+git init          // init a local git repository
+git add <file(s)  // add file(s) to index in the staging area
+git status        // check status of working tree
+git commit        // commit changes in index
+
+git push          // push to remote repository
+git pull          // pull latest from remote repository
+git clone         // clone repository into a new directory
+
+windows: http://git-scm.com/download/win, use the git bash
+
+git config --global user.name 'Walter Fu'
+git config --global user.email 'walterfu23@gmail.com'
+
+git add index.html
+git status
+git rm --cached. index.html   // remove the file from staging
+git status
+
+git add .     // add all files to staging area
+
+
