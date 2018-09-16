@@ -19,4 +19,7 @@ git status
 
 git add .     // add all files to staging area
 
+git commit -m 'initial commit'   // commit with the given comment
+git branch login     // adds a new branch called 'login'
+git checkout login   // move to using the login branch
 
